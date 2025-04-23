@@ -15,7 +15,7 @@ public class Exercicio2 {
 
 
         for (int i = 0; i < quantidade; i++) {
-            System.out.print("Digite o número " + (i + 1) + ": ");
+            System.out.print("Digite o número: " + (i + 1) + ": ");
             numeros[i] = scanner.nextInt();
             soma += numeros[i];
         }
