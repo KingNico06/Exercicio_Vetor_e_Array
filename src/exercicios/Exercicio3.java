@@ -6,7 +6,7 @@ public class Exercicio3 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        int[] numeros = {10, 20, 5, 6, 9, 5, 20, 6};
+        int[] numeros = {11,35,690,44,1,5,55};
         
 
         int[] pares = new int[numeros.length];
