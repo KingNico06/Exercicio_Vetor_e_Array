@@ -7,7 +7,7 @@ public class Exercicio4 {
         Scanner scanner = new Scanner(System.in);
         
         
-        String[] palavras = {"Carro", "Beleza", "Sol", "Emoção", "Correr", "Vencer"};
+        String[] palavras = {"Carro", "Motor", "Beleza", "Sol", "Emoção", "Correr", "Vencer"};
         String[] resultado = new String[palavras.length];
         int totalRestantes = 0;
 
