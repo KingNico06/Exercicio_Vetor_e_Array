@@ -7,7 +7,7 @@ public class Exercicio2 {
         Scanner scanner = new Scanner(System.in);
 
 
-        System.out.print("Quantos números você deseja inserir? ");
+        System.out.print("Quantos números você deseja inserir?: ");
         int quantidade = scanner.nextInt();
         
         int[] numeros = new int[quantidade];
