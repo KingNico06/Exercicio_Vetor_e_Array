@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Exercicio1 {
     public static void main(String[] args) {
-        String[] nomes = {"Luigi", "Sarah"};
+        String[] nomes = {"Luigi ", "Sarah"};
         
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite a letra para filtrar os nomes: ");
