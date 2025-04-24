@@ -15,7 +15,7 @@ public class Exercicio2 {
 
 
         for (int i = 0; i < quantidade; i++) {
-            System.out.print("Digite o número: " + (i + 1) + ": ");
+            System.out.print("Digite o número " + (i + 1) + ": ");
             numeros[i] = scanner.nextInt();
             soma += numeros[i];
         }
@@ -24,7 +24,7 @@ public class Exercicio2 {
         double media = (double) soma / quantidade;
 
 
-        System.out.println("\nLista de números inseridos:");
+        System.out.println("\n\nLista de números inseridos:");
         for (int numero : numeros) {
             System.out.print(numero + " ");
         }
